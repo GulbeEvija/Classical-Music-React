@@ -3,7 +3,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/GulbeEvija/Classical-Music-React">
-    <img src="src/shopping.jpg" alt="Logo" width="150" height="150">
+    <img src="musicIcon.png" alt="Logo" width="150" height="150">
   </a>
 
 <h3 align="center">Grocery list</h3>
@@ -101,6 +101,6 @@ Project provided by [CanSheCode](https://edu-canshecode.thinkific.com/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-[product-screenshot]: groceryListImage.png
+[product-screenshot]: musicIcon.png
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
