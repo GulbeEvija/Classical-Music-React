@@ -6,7 +6,7 @@
     <img src="musicIcon.png" alt="Logo" width="150" height="150">
   </a>
 
-<h3 align="center">Grocery list</h3>
+<h3 align="center">Classical Music App</h3>
 
   <p align="center">
     App built with React using props and class components.
