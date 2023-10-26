@@ -7,6 +7,11 @@ body {
   justify-content: center;
 }
 
+.containerBtn {
+  display: flex;
+  justify-content: center;
+}
+
 .containerTwo {
   display: flex;
   flex-direction: column;
@@ -113,3 +118,107 @@ h1 {
   margin-bottom: 50px;
 }
 
+.periodPhoto {
+  width: 650px;
+  height: 475px;
+}
+
+@media all and (max-width: 800px) {
+
+  h1 {
+    margin-left: 50px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .containerSlide {
+    width: 650px;
+    padding: 10px;
+    min-height: 40vh;
+    margin-left: 25px;
+  }
+
+  .periodPhoto {
+    width: 600px;
+    height: 455px;
+  }
+
+  .containerBtn {
+    justify-content: center;
+  }
+
+  .periodTitle {
+    font-size: 25px;
+  }
+  
+  .slideYear {
+    font-size: 17px;
+  }
+
+  .btnSlide {
+    font-size: 18px;
+    padding: 7px;
+    width: 125px;
+    margin: 12px;
+  }
+
+  .composerTitle {
+    font-size: 28px;
+    margin-left: 80px;
+  }
+  
+  .containerTwo {
+    width: 650px;
+    padding: 10px;
+  }
+  
+}
+
+@media all and (max-width: 500px) {
+
+    h1 {
+    font-size: 35px;
+    margin-left: 15px;
+  }
+
+  .periodPhoto {
+    width: 325px;
+    height: 200px;
+    margin-left: 10px;
+  }
+
+  .containerSlide {
+    width: 350px;
+    margin-left: 5px;
+    padding: 5px;
+  }
+
+  .textContainer {
+    margin-left: 22px;
+  }
+
+  .textStyle {
+    font-size: 18px;
+  }
+
+  .picTitle {
+    font-size: 20px;
+  }
+  
+  .periodTitle {
+    font-size: 22px;
+  }
+  
+  .composerTitle {
+    font-size: 25px;
+    margin-left: 50px;
+  }
+  
+  .containerTwo {
+    width: 350px;
+  }
+  
+}

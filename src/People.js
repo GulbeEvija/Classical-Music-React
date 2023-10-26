@@ -44,7 +44,7 @@ function People() {
 
         }))}
 
-          <div className='container'>
+          <div className='containerBtn'>
             <button className='btnDelete' onClick={() => setComposers([])}>Delete all</button>
           </div>
     </div>

@@ -34,7 +34,7 @@ function Periods() {
 
             <div className="containerSlide container">
               <div>
-                  <img src={photo} alt="Artwork" width="650px" height="475px"/>
+                  <img className="periodPhoto" src={photo} alt="Artwork" />
                   <h3 className="picTitle">{title}</h3>
                 </div>
                 <div className="textContainer">
@@ -45,7 +45,7 @@ function Periods() {
                 </div>
               </div>
 
-          <div className="container">
+          <div className="containerBtn">
               <button className="btnSlide" onClick={previousMusic}>Previous</button>
               <button className="btnSlide" onClick={nextMusic}>Next</button>
             </div>
