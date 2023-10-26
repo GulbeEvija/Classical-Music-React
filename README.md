@@ -3,13 +3,13 @@
 <br />
 <div align="center">
   <a href="https://github.com/GulbeEvija/Classical-Music-React">
-    <img src="musicIcon.png" alt="Logo" width="150" height="150">
+    <img src="musicIcon.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Classical Music App</h3>
 
   <p align="center">
-    App built with React using props and class components.
+    App built with React using React Hooks and data.js.
     <br />
     <br />
     <a href="https://comforting-hummingbird-b31e34.netlify.app/">View project live on Netlify</a>
@@ -42,10 +42,16 @@
 
 ![Product Name Screen Shot][product-screenshot]
 
-Here's a blank template to get started: 
+* In this app users are presented with 2 features:
+    1. View pictures via slide with buttons "Next" and "Previous".
+    2. Use list of items where each item can be removed via button, as well as remove whole list of items.
+* To build this app I used React Hooks amd data.js.
+  * Substring method was used for "Show more" button.
+* "Each child should have a unique key prop" was the challenge I ran into. Therefore when using map(), we also need to add key.
+* In the future I hope to add a button where users add an item to the list!
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 ### Built With
@@ -57,18 +63,14 @@ Here's a blank template to get started:
 
 
 ## Getting Started
+Write in the terminal `npm start` \
+This command runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.\
+The page will reload when you make changes.
 
-`npm start`
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-
-
-## Learn More
+## Usage
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
