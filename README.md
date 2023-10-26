@@ -101,6 +101,6 @@ Project provided by [CanSheCode](https://edu-canshecode.thinkific.com/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-[product-screenshot]: musicIcon.png
+[product-screenshot]: musicImage.png
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
