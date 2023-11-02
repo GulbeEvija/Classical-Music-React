@@ -45,7 +45,7 @@
 * In this app users are presented with 2 features:
     1. View pictures via slide with buttons "Next" and "Previous".
     2. Use list of items where each item can be removed via button, as well as remove whole list of items.
-* To build this app I used React Hooks amd data.js.
+* To build this app I used React Hooks and data.js.
   * Substring method was used for "Show more" button.
 * "Each child should have a unique key prop" was the challenge I ran into. Therefore when using map(), we also need to add key.
 * In the future I hope to add a button where users add an item to the list!
